@@ -45,7 +45,7 @@ public class DateActivity {
 		long daysPassed = (elapsedNow - elapsedThen);
 		
 		
-		System.out.println("That was a "+DoW+". "+weekDay(n)+daysPassed+" days have passed since then.\n");
+		System.out.println("That was a "+DoW+". "+weekDay(n)+" "+daysPassed+" days have passed since then.\n");
 		System.out.println("Would you like to continue entering dates? Yes/No");
 		game = keyboard.nextLine().toLowerCase();
 		
